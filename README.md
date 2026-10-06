@@ -58,7 +58,7 @@ The global Natural Language Understanding (NLU) market size is estimated at **$1
 
 ## 🔓 Open-Source GitHub Projects
 
-*Sorted by GitHub Stars Count (Descending)* 🌟
+*Sorted by GitHub_Stars_Count (Descending)* 🌟
 
 - **[Scikit-learn](https://github.com/scikit-learn/scikit-learn)** [![Stars](https://img.shields.io/github/stars/scikit-learn/scikit-learn?style=social&color=white)](https://github.com/scikit-learn/scikit-learn/stargazers) ⚡  
   **Classic machine learning library**, BSD-3-Clause licensed. Foundational for traditional text classification, clustering, and feature extraction with TF-IDF and CountVectorizer. 📊
