@@ -17,7 +17,7 @@
 
 ## 🌟 Top Natural Language Understanding Ecosystem
 
-**Curated List of Commercial NLU APIs & Open-Source NLP Libraries**  
+**Curated Directory of Commercial NLU APIs & Open-Source NLP Libraries**  
 *Focused on Intent Recognition, Entity Extraction, Sentiment Analysis, Semantic Parsing & Transformer Models*  
 
 **Last updated: October 2026** 📅
@@ -25,7 +25,7 @@
 ---
 
 ### 📌 Overview & SEO Summary
-Welcome to the ultimate curated directory of **natural language understanding platforms**, **open-source NLP libraries**, and **transformer-based language models**. Whether you are looking for enterprise-grade commercial NLU services (such as *Microsoft Azure AI Language*, *Google Cloud Natural Language*, *AWS Comprehend*, and *IBM Watson NLU*), or high-performance open-source frameworks (like *spaCy*, *Hugging Face Transformers*, *Stanza*, and *Flair*), this list covers category leaders, foundational libraries, and state-of-the-art model hubs.
+Welcome to the ultimate curated directory of **natural language understanding (NLU) platforms**, **open-source NLP libraries**, and **transformer-based language models**. Natural Language Understanding is a critical subfield of Artificial Intelligence (AI) and Natural Language Processing (NLP) enabling machines to parse sentiment, extract named entities (NER), recognize user intent, perform semantic search, and synthesize contextual text. Whether you are searching for enterprise-grade commercial NLU services (such as *Microsoft Azure AI Language*, *Google Cloud Natural Language*, *AWS Comprehend*, and *IBM Watson NLU*), or high-performance open-source frameworks (like *Hugging Face Transformers*, *spaCy*, *NLTK*, *Stanza*, and *Flair*), this comprehensive resource indexes category leaders, foundational toolkits, and state-of-the-art model hubs.
 
 ---
 
@@ -39,83 +39,92 @@ Welcome to the ultimate curated directory of **natural language understanding pl
 
 ---
 
-## 🏢 SaaS / Commercial Platforms
+## 🏢 SaaS & Commercial Platforms
 
-The global NLU market is experiencing rapid growth, with major cloud providers and specialized vendors competing on accuracy, integration depth, and enterprise governance [citation:1][citation:10]. Microsoft and Google lead through deep ecosystem integration, while AWS emphasizes model agnosticism via Amazon Bedrock [citation:1]. Specialized players like Expert.ai and Rosette differentiate through hybrid symbolic-ML approaches for explainability [citation:1][citation:8].
+The global Natural Language Understanding (NLU) market size is estimated at **$15.8 Billion in 2026** and is projected to reach **$48.5 Billion by 2030**, growing at a CAGR of ~32.4%. The market is **moderately concentrated** at the infrastructure layer, dominated by hyperscale cloud vendors (Microsoft, Google, AWS, IBM) who leverage massive cloud distribution and LLM foundations, while remaining **fragmented** in specialized verticals (e.g., news intelligence, symbolic hybrid AI, multi-lingual text analytics) where boutique vendors compete on domain accuracy and strict data governance.
 
-| SaaS / Commercial Platform | Company / Owner | Valuation / Market Cap | Standard Edition Starting Price | Free Tier / Free Trial Limits | Description |
+| SaaS / Commercial Platform | Company / Owner | Market Cap / Valuation | Standard Edition Starting Price | Free Tier / Free Trial Limits | Description |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **[Microsoft Azure AI Language (LUIS)](https://azure.microsoft.com/en-us/products/ai-services/ai-language)** 🧠 | Microsoft | ~$3.8 Trillion | Pay-as-you-go | Free F0 authoring: 1M transactions/month + 1,000 test predictions; Free F0 prediction: 10,000 transactions/month [citation:2][citation:11] | **Enterprise NLU with intent & entity extraction** — LUIS being deprecated March 2026, migrating to Azure AI Language. |
-| **[Google Cloud Natural Language](https://cloud.google.com/natural-language)** 🌐 | Google (Alphabet) | ~$2.0 Trillion | Pay-as-you-go | $300 free credits for new customers; 5,000 units/month free for some features [citation:12][citation:19] | **Pre-trained NLU API** — sentiment analysis, entity extraction, content classification, syntax parsing. |
-| **[AWS Comprehend](https://aws.amazon.com/comprehend/)** ☁️ | Amazon | ~$2.0 Trillion | Pay-as-you-go | 12-month free tier: 50K units/month for key features; always-free tier: 5K units/month [citation:13] | **Fully managed NLP service** — sentiment, entities, key phrases, language detection, topic modeling. |
-| **[IBM Watson Natural Language Understanding](https://www.ibm.com/products/natural-language-understanding)** 🔵 | IBM | ~$200 Billion | Pay-as-you-go | Lite tier: 30,000 NLU items/month + 1 custom model [citation:5][citation:14] | **Enterprise NLU with governance focus** — targets regulated industries with Watsonx integration [citation:1]. |
-| **[MonkeyLearn](https://monkeylearn.com/)** 🐒 | Medallia (Acquired 2022) | Private | ~$299/month (estimated) | Free tier: 300 queries/month [citation:6][citation:15] | **No-code text analysis** — pre-built classifiers for sentiment, intent, and custom model training. |
-| **[Aylien (Quantexa News API)](https://aylien.com/)** 📰 | Quantexa | Private | Custom licensing (no public pricing) | 14-day free trial only (no permanent free tier) [citation:7] | **News intelligence NLU** — media monitoring, entity extraction, and news-specific sentiment. |
-| **[Expert.ai](https://www.expert.ai/)** 🎯 | Expert.ai S.p.A. | ~$80 Million (€70M) | Custom enterprise pricing | Trial available on request [citation:8] | **Hybrid AI (symbolic + ML)** — focuses on explainability for insurance, banking, and life sciences [citation:1][citation:8]. |
-| **[Rosette](https://www.rosette.com/)** 🌹 | Basis Technology | Private | Custom enterprise pricing | Free trial available; no permanent free tier [citation:9] | **Multilingual text analytics** — 20-40 language support, entity extraction, sentiment, and morphology. |
+| **[Microsoft Azure AI Language (LUIS)](https://azure.microsoft.com/en-us/products/ai-services/ai-language)** 🧠 | Microsoft | ~$3.8 Trillion | $1.00 per 1,000 text records (S0 Tier) | Free F0 Tier: 5,000 text records/month + 1,000 test predictions | **Enterprise NLU with intent & entity extraction** — LUIS features migrated to unified Azure AI Language service. |
+| **[Google Cloud Natural Language](https://cloud.google.com/natural-language)** 🌐 | Google (Alphabet) | ~$2.0 Trillion | $1.00 per 1,000 units (1 unit = 1,000 chars) | 5,000 units/month free per feature + $300 new customer credits | **Pre-trained NLU API** — sentiment analysis, entity extraction, content classification, syntax parsing. |
+| **[AWS Comprehend](https://aws.amazon.com/comprehend/)** ☁️ | Amazon | ~$2.0 Trillion | $0.0001 per unit (1 unit = 100 characters, min 3 units) | 12-Month Free Tier: 50,000 units/month for standard entities, sentiment & keyphrases | **Fully managed NLP service** — sentiment, entities, key phrases, language detection, topic modeling. |
+| **[IBM Watson Natural Language Understanding](https://www.ibm.com/products/natural-language-understanding)** 🔵 | IBM | ~$200 Billion | $0.003 per NLU item (Standard Plan) | Free Lite Tier: 30,000 NLU items/month + 1 custom model | **Enterprise NLU with governance focus** — targets regulated industries with Watsonx integration. |
+| **[MonkeyLearn](https://monkeylearn.com/)** 🐒 | Medallia (Acquired 2022) | ~$7.5 Billion (Parent Medallia valuation) | $299/month (Team Plan including 10,000 queries) | Free Trial: 14 days access with 300 total queries | **No-code text analysis** — pre-built classifiers for sentiment, intent, and custom model training. |
+| **[Aylien (Quantexa News API)](https://aylien.com/)** 📰 | Quantexa | ~$1.8 Billion | $499/month (Developer Plan starting tier) | Free Trial: 14-day full platform trial with 1,000 API calls | **News intelligence NLU** — media monitoring, entity extraction, and news-specific sentiment. |
+| **[Expert.ai](https://www.expert.ai/)** 🎯 | Expert.ai S.p.A. | ~$80 Million (€70M) | $0.002 per text document analyzed (Standard API) | Free Developer Account: 14 days access with 2,500 requests limit | **Hybrid AI (symbolic + ML)** — focuses on explainability for insurance, banking, and life sciences. |
+| **[Rosette](https://www.rosette.com/)** 🌹 | Basis Technology | ~$50 Million (Estimated Private) | $250/month (Developer API Starter) | Free Trial: 30-day developer key with 10,000 calls limit | **Multilingual text analytics** — 20-40 language support, entity extraction, sentiment, and morphology. |
 
 ---
 
 ## 🔓 Open-Source GitHub Projects
 
-*Sorted by GitHub_Stars_Count (Descending)* 🌟
+*Sorted by GitHub Stars Count (Descending)* 🌟
 
-- **[Transformers (Hugging Face)](https://github.com/huggingface/transformers)** [![Stars](https://img.shields.io/github/stars/huggingface/transformers?style=social&color=white)](https://github.com/huggingface/transformers/stargazers)  
+- **[Scikit-learn](https://github.com/scikit-learn/scikit-learn)** [![Stars](https://img.shields.io/github/stars/scikit-learn/scikit-learn?style=social&color=white)](https://github.com/scikit-learn/scikit-learn/stargazers) ⚡  
+  **Classic machine learning library**, BSD-3-Clause licensed. Foundational for traditional text classification, clustering, and feature extraction with TF-IDF and CountVectorizer. 📊
+
+- **[Transformers (Hugging Face)](https://github.com/huggingface/transformers)** [![Stars](https://img.shields.io/github/stars/huggingface/transformers?style=social&color=white)](https://github.com/huggingface/transformers/stargazers) ⚡  
   **State-of-the-art NLP library with 100K+ pretrained models**, Apache-2.0 licensed. The de facto standard for leveraging BERT, GPT, T5, and other transformer architectures for NLU tasks. 🤗
 
-- **[spaCy](https://github.com/explosion/spaCy)** [![Stars](https://img.shields.io/github/stars/explosion/spaCy?style=social&color=white)](https://github.com/explosion/spaCy/stargazers)  
-  **Industrial-strength NLP in Python**, MIT licensed. Production-grade entity recognition, part-of-speech tagging, dependency parsing, and text classification with pre-trained pipelines for 20+ languages. ⚡
-
-- **[NLTK](https://github.com/nltk/nltk)** [![Stars](https://img.shields.io/github/stars/nltk/nltk?style=social&color=white)](https://github.com/nltk/nltk/stargazers)  
-  **The classic Python NLP toolkit**, Apache-2.0 licensed. Foundational library for tokenization, stemming, tagging, parsing, and semantic reasoning — widely used in education and research. 📚
-
-- **[Gensim](https://github.com/piskvorky/gensim)** [![Stars](https://img.shields.io/github/stars/piskvorky/gensim?style=social&color=white)](https://github.com/piskvorky/gensim/stargazers)  
-  **Topic modeling and document similarity**, LGPL-2.1 licensed. Efficient implementations of Word2Vec, Doc2Vec, LDA, and LSI for semantic understanding. 🧩
-
-- **[Flair](https://github.com/flairNLP/flair)** [![Stars](https://img.shields.io/github/stars/flairNLP/flair?style=social&color=white)](https://github.com/flairNLP/flair/stargazers)  
-  **Contextual string embeddings for sequence labeling**, MIT licensed. State-of-the-art NER, part-of-speech tagging, and text classification with simple Python APIs. 🔥
-
-- **[Stanza (Stanford NLP)](https://github.com/stanfordnlp/stanza)** [![Stars](https://img.shields.io/github/stars/stanfordnlp/stanza?style=social&color=white)](https://github.com/stanfordnlp/stanza/stargazers)  
-  **Official Stanford NLP Python library**, Apache-2.0 licensed. Tokenization, multi-word token expansion, lemmatization, POS tagging, and dependency parsing for 70+ languages. 🎓
-
-- **[AllenNLP](https://github.com/allenai/allennlp)** [![Stars](https://img.shields.io/github/stars/allenai/allennlp?style=social&color=white)](https://github.com/allenai/allennlp/stargazers)  
-  **Deep learning for NLP research**, Apache-2.0 licensed. Modular framework from AI2 for building and evaluating NLU models with reproducible experiments. 🔬
-
-- **[FARM (Deepset)](https://github.com/deepset-ai/FARM)** [![Stars](https://img.shields.io/github/stars/deepset-ai/FARM?style=social&color=white)](https://github.com/deepset-ai/FARM/stargazers)  
-  **Framework for Adapting Representation Models**, Apache-2.0 licensed. Simplifies transfer learning for NLU tasks like question answering and intent classification. 🚜
-
-- **[Haystack (Deepset)](https://github.com/deepset-ai/haystack)** [![Stars](https://img.shields.io/github/stars/deepset-ai/haystack?style=social&color=white)](https://github.com/deepset-ai/haystack/stargazers)  
-  **NLP framework for semantic search and QA**, Apache-2.0 licensed. End-to-end pipelines for retrieval-augmented generation (RAG) and document understanding. 🔍
-
-- **[Rasa](https://github.com/RasaHQ/rasa)** [![Stars](https://img.shields.io/github/stars/RasaHQ/rasa?style=social&color=white)](https://github.com/RasaHQ/rasa/stargazers)  
-  **Open-source conversational AI framework**, Apache-2.0 licensed. Intent recognition, entity extraction, and dialogue management for building contextual assistants. 💬
-
-- **[Snorkel](https://github.com/snorkel-team/snorkel)** [![Stars](https://img.shields.io/github/stars/snorkel-team/snorkel?style=social&color=white)](https://github.com/snorkel-team/snorkel/stargazers)  
-  **Programmatic training data creation**, Apache-2.0 licensed. Weak supervision framework for building NLU models without large labeled datasets. 🏷️
-
-- **[TextBlob](https://github.com/sloria/TextBlob)** [![Stars](https://img.shields.io/github/stars/sloria/TextBlob?style=social&color=white)](https://github.com/sloria/TextBlob/stargazers)  
-  **Simplified text processing in Python**, MIT licensed. Beginner-friendly API for sentiment analysis, noun phrase extraction, and translation built on NLTK and Pattern. 📝
-
-- **[CoreNLP (Stanford)](https://github.com/stanfordnlp/CoreNLP)** [![Stars](https://img.shields.io/github/stars/stanfordnlp/CoreNLP?style=social&color=white)](https://github.com/stanfordnlp/CoreNLP/stargazers)  
-  **Java NLP toolkit from Stanford**, GPL-3.0 licensed. Comprehensive pipeline for tokenization, parsing, NER, coreference resolution, and sentiment. ☕
-
-- **[OpenNLP (Apache)](https://github.com/apache/opennlp)** [![Stars](https://img.shields.io/github/stars/apache/opennlp?style=social&color=white)](https://github.com/apache/opennlp/stargazers)  
-  **Apache machine learning based NLP toolkit**, Apache-2.0 licensed. Java library for sentence detection, tokenization, POS tagging, and named entity recognition. 🏛️
-
-- **[Pattern](https://github.com/clips/pattern)** [![Stars](https://img.shields.io/github/stars/clips/pattern?style=social&color=white)](https://github.com/clips/pattern/stargazers)  
-  **Web mining and NLP module**, BSD-3-Clause licensed. Part-of-speech tagging, sentiment analysis, and vector space modeling with a focus on social media text. 🕸️
-
-- **[Polyglot](https://github.com/aboSamoor/polyglot)** [![Stars](https://img.shields.io/github/stars/aboSamoor/polyglot?style=social&color=white)](https://github.com/aboSamoor/polyglot/stargazers)  
-  **Multilingual NLP pipeline**, GPL-3.0 licensed. Supports 40+ languages for NER, POS tagging, sentiment, and morphological analysis. 🌍
-
-- **[BERT (Google Research)](https://github.com/google-research/bert)** [![Stars](https://img.shields.io/github/stars/google-research/bert?style=social&color=white)](https://github.com/google-research/bert/stargazers)  
+- **[BERT (Google Research)](https://github.com/google-research/bert)** [![Stars](https://img.shields.io/github/stars/google-research/bert?style=social&color=white)](https://github.com/google-research/bert/stargazers) ⚡  
   **Bidirectional Encoder Representations from Transformers**, Apache-2.0 licensed. The foundational pretrained language model that revolutionized NLU. 🔷
 
-- **[Sentence Transformers](https://github.com/UKPLab/sentence-transformers)** [![Stars](https://img.shields.io/github/stars/UKPLab/sentence-transformers?style=social&color=white)](https://github.com/UKPLab/sentence-transformers/stargazers)  
+- **[spaCy](https://github.com/explosion/spaCy)** [![Stars](https://img.shields.io/github/stars/explosion/spaCy?style=social&color=white)](https://github.com/explosion/spaCy/stargazers) ⚡  
+  **Industrial-strength NLP in Python**, MIT licensed. Production-grade entity recognition, part-of-speech tagging, dependency parsing, and text classification with pre-trained pipelines for 20+ languages. ⚡
+
+- **[NLTK](https://github.com/nltk/nltk)** [![Stars](https://img.shields.io/github/stars/nltk/nltk?style=social&color=white)](https://github.com/nltk/nltk/stargazers) ⚡  
+  **The classic Python NLP toolkit**, Apache-2.0 licensed. Foundational library for tokenization, stemming, tagging, parsing, and semantic reasoning — widely used in education and research. 📚
+
+- **[Rasa](https://github.com/RasaHQ/rasa)** [![Stars](https://img.shields.io/github/stars/RasaHQ/rasa?style=social&color=white)](https://github.com/RasaHQ/rasa/stargazers) ⚡  
+  **Open-source conversational AI framework**, Apache-2.0 licensed. Intent recognition, entity extraction, and dialogue management for building contextual assistants. 💬
+
+- **[Gensim](https://github.com/piskvorky/gensim)** [![Stars](https://img.shields.io/github/stars/piskvorky/gensim?style=social&color=white)](https://github.com/piskvorky/gensim/stargazers) ⚡  
+  **Topic modeling and document similarity**, LGPL-2.1 licensed. Efficient implementations of Word2Vec, Doc2Vec, LDA, and LSI for semantic understanding. 🧩
+
+- **[Sentence Transformers](https://github.com/UKPLab/sentence-transformers)** [![Stars](https://img.shields.io/github/stars/UKPLab/sentence-transformers?style=social&color=white)](https://github.com/UKPLab/sentence-transformers/stargazers) ⚡  
   **Dense vector representations for sentences**, Apache-2.0 licensed. Enables semantic textual similarity, clustering, and semantic search with transformer embeddings. 🎯
 
-- **[Scikit-learn](https://github.com/scikit-learn/scikit-learn)** [![Stars](https://img.shields.io/github/stars/scikit-learn/scikit-learn?style=social&color=white)](https://github.com/scikit-learn/scikit-learn/stargazers)  
-  **Classic machine learning library**, BSD-3-Clause licensed. Foundational for traditional text classification, clustering, and feature extraction with TF-IDF and CountVectorizer. 📊
+- **[Haystack (Deepset)](https://github.com/deepset-ai/haystack)** [![Stars](https://img.shields.io/github/stars/deepset-ai/haystack?style=social&color=white)](https://github.com/deepset-ai/haystack/stargazers) ⚡  
+  **NLP framework for semantic search and QA**, Apache-2.0 licensed. End-to-end pipelines for retrieval-augmented generation (RAG) and document understanding. 🔍
+
+- **[TextBlob](https://github.com/sloria/TextBlob)** [![Stars](https://img.shields.io/github/stars/sloria/TextBlob?style=social&color=white)](https://github.com/sloria/TextBlob/stargazers) ⚡  
+  **Simplified text processing in Python**, MIT licensed. Beginner-friendly API for sentiment analysis, noun phrase extraction, and translation built on NLTK and Pattern. 📝
+
+- **[Flair](https://github.com/flairNLP/flair)** [![Stars](https://img.shields.io/github/stars/flairNLP/flair?style=social&color=white)](https://github.com/flairNLP/flair/stargazers) ⚡  
+  **Contextual string embeddings for sequence labeling**, MIT licensed. State-of-the-art NER, part-of-speech tagging, and text classification with simple Python APIs. 🔥
+
+- **[Stanza (Stanford NLP)](https://github.com/stanfordnlp/stanza)** [![Stars](https://img.shields.io/github/stars/stanfordnlp/stanza?style=social&color=white)](https://github.com/stanfordnlp/stanza/stargazers) ⚡  
+  **Official Stanford NLP Python library**, Apache-2.0 licensed. Tokenization, multi-word token expansion, lemmatization, POS tagging, and dependency parsing for 70+ languages. 🎓
+
+- **[CoreNLP (Stanford)](https://github.com/stanfordnlp/CoreNLP)** [![Stars](https://img.shields.io/github/stars/stanfordnlp/CoreNLP?style=social&color=white)](https://github.com/stanfordnlp/CoreNLP/stargazers) ⚡  
+  **Java NLP toolkit from Stanford**, GPL-3.0 licensed. Comprehensive pipeline for tokenization, parsing, NER, coreference resolution, and sentiment. ☕
+
+- **[AllenNLP](https://github.com/allenai/allennlp)** [![Stars](https://img.shields.io/github/stars/allenai/allennlp?style=social&color=white)](https://github.com/allenai/allennlp/stargazers) ⚡  
+  **Deep learning for NLP research**, Apache-2.0 licensed. Modular framework from AI2 for building and evaluating NLU models with reproducible experiments. 🔬
+
+- **[Snorkel](https://github.com/snorkel-team/snorkel)** [![Stars](https://img.shields.io/github/stars/snorkel-team/snorkel?style=social&color=white)](https://github.com/snorkel-team/snorkel/stargazers) ⚡  
+  **Programmatic training data creation**, Apache-2.0 licensed. Weak supervision framework for building NLU models without large labeled datasets. 🏷️
+
+- **[Pattern](https://github.com/clips/pattern)** [![Stars](https://img.shields.io/github/stars/clips/pattern?style=social&color=white)](https://github.com/clips/pattern/stargazers) ⚡  
+  **Web mining and NLP module**, BSD-3-Clause licensed. Part-of-speech tagging, sentiment analysis, and vector space modeling with a focus on social media text. 🕸️
+
+- **[FARM (Deepset)](https://github.com/deepset-ai/FARM)** [![Stars](https://img.shields.io/github/stars/deepset-ai/FARM?style=social&color=white)](https://github.com/deepset-ai/FARM/stargazers) ⚡  
+  **Framework for Adapting Representation Models**, Apache-2.0 licensed. Simplifies transfer learning for NLU tasks like question answering and intent classification. 🚜
+
+- **[OpenNLP (Apache)](https://github.com/apache/opennlp)** [![Stars](https://img.shields.io/github/stars/apache/opennlp?style=social&color=white)](https://github.com/apache/opennlp/stargazers) ⚡  
+  **Apache machine learning based NLP toolkit**, Apache-2.0 licensed. Java library for sentence detection, tokenization, POS tagging, and named entity recognition. 🏛️
+
+- **[Polyglot](https://github.com/aboSamoor/polyglot)** [![Stars](https://img.shields.io/github/stars/aboSamoor/polyglot?style=social&color=white)](https://github.com/aboSamoor/polyglot/stargazers) ⚡  
+  **Multilingual NLP pipeline**, GPL-3.0 licensed. Supports 40+ languages for NER, POS tagging, sentiment, and morphological analysis. 🌍
+
+- **[HanLP](https://github.com/hankcs/HanLP)** [![Stars](https://img.shields.io/github/stars/hankcs/HanLP?style=social&color=white)](https://github.com/hankcs/HanLP/stargazers) ⚡  
+  **Multilingual NLP Library for Deep Learning & Classical Models**, Apache-2.0 licensed. State-of-the-art tokenization, POS tagging, and NER for Asian and European languages. 🧧
+
+- **[Jieba](https://github.com/fxsjy/jieba)** [![Stars](https://img.shields.io/github/stars/fxsjy/jieba?style=social&color=white)](https://github.com/fxsjy/jieba/stargazers) ⚡  
+  **Chinese text segmentation module**, MIT licensed. Standard tool for Chinese word segmentation, keyword extraction, and speech tagging. 🔪
+
+- **[fastText (Meta)](https://github.com/facebookresearch/fastText)** [![Stars](https://img.shields.io/github/stars/facebookresearch/fastText?style=social&color=white)](https://github.com/facebookresearch/fastText/stargazers) ⚡  
+  **Efficient text classification and representation library**, MIT licensed. Fast text representation learning and language identification. ⚡
 
 ---
 
